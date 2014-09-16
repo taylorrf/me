@@ -1,5 +1,5 @@
 GEM
-  remote: http://rubygems.org/
+  remote: https://rubygems.org/
   specs:
     daemons (1.1.9)
     dotenv (0.11.1)
@@ -20,6 +20,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  foreman
+  foreman (~> 0.75.0)
   rack (~> 1.5.2)
-  thin
+  thin (~> 1.6.2)
