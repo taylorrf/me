@@ -1,5 +1,6 @@
 source :rubygems
-ruby '1.9.3p194'
+
+ruby '2.1.2'
 
 gem 'rack', "~> 1.5.2"
 gem 'foreman'
