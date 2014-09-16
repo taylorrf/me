@@ -1,2 +1,2 @@
 source :rubygems
-gem 'rack'
+gem 'rack', "~> 1.5.2"
