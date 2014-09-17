@@ -8,7 +8,4 @@ It's using Rack and are ready to be deployable on Heroku.
 To make some changes or just to run locally, simple run:
 $ foreman start
 
-If someone are planning to use it to delivery your own homepage feel free.
-
-### Todo
-* Create something like infos.yml to read my personal informations from this file.
+If someone are planning to use it to your own homepage feel free.

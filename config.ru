@@ -3,8 +3,7 @@ require 'erubis'
 
 infos = YAML.load_file('infos.yml')
 
-input = File.read('public/index.eruby')
-eruby = Erubis::Eruby.new(input) 
+eruby = Erubis::Eruby.new(File.read('public/index.eruby')) 
 
 use Rack::Static, 
   :urls => ["/assets"],
