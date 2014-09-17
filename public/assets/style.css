@@ -21,3 +21,6 @@ a:hover{text-decoration:underline}
 .code .s{color:#a4c260}
 .code .sy{color:#6c9cbd}
 .code .i{color:#737373}
+
+.code .s:after{content: ",";color:white}
+.code .s:last-child:after{content: "";}
