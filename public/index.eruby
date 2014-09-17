@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang='pt-BR' xml:lang='pt-BR' xmlns='http://www.w3.org/1999/xhtml'>
+  <head>
+    <meta content='text/html;charset=UTF-8' http-equiv='Content-Type' />
+    <title><%=infos["page_title"] %></title>
+    <meta content='<%=infos["page_keywords"] %>' name='keywords' />
+    <link charset='utf-8' href='assets/style.css' media='screen' rel='stylesheet' type='text/css' />
+    <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="assets/favicon.ico" type="image/x-icon">  </head>
+  <body>
+    <div id='distance'></div>
+    <div id='main'>
+      <div class='code'>        
+        <pre>&#x000A;<span class="co">Human</span>.<span class="r">new</span>({&#x000A;<span class="sy">    name:</span> <h1 class="s">'<%=infos["name"] %>'</h1>
+	<% infos["links"].each do |item| %>
+    <span class="sy"><%= item[0] %>:</span> <span class="s">'<a href='<%= item[1]["url"] %>' title='<%= item[0] %>' target="_blank"><%= item[1]["title"] %></a>'</span>
+	<% end %>
+  })&#x000A;</pre>
+      </div>
+    </div>
+  </body>
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', '<%=infos["ga_code"] %>']);
+    _gaq.push(['_trackPageview']);
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+</html>
