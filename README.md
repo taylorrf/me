@@ -1,5 +1,6 @@
 My HomePage
 ===========
+[![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/taylorrf/me?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 Source code of my personal home page running at http://taylorrf.com, an simple and single page with essential informations to find me on the internet.
 
