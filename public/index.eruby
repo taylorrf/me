@@ -7,6 +7,7 @@
     <link charset='utf-8' href='assets/style.css' media='screen' rel='stylesheet' type='text/css' />
     <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
     <link rel="icon" href="assets/favicon.ico" type="image/x-icon">  </head>
+    <meta name="viewport" content="width=device-width, initial-scale=0.8">
   <body>
     <div id='distance'></div>
     <div id='main'>
