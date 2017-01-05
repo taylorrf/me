@@ -1,4 +1,4 @@
-page_title: Tailor Fontela (taylorrf) - Software Craftsmanship
+page_title: Tailor Fontela (taylorrf) - Software Developer. Full-stack.
 page_keywords: tailor fontela,rails,ruby,sinatra,haskell,git,software development
 
 name: Tailor Fontela
@@ -11,7 +11,7 @@ links:
     title: "@tailorfontela"
     url: https://twitter.com/tailorfontela
   books:
-    title: "['tech','scifi', 'poetry', 'personal growth']"
+    title: %w{tech scifi poetry}
     url: https://www.goodreads.com/user/show/46247123-tailor-fontela
   code:
     title: taylorrf
