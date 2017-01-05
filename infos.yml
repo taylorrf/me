@@ -8,7 +8,7 @@ links:
     title: blog_eng
     url: http://blog.taylorrf.com
   twit:
-    title: tailorfontela
+    title: @tailorfontela
     url: https://twitter.com/tailorfontela
   books:
     title: taylorrf
@@ -16,9 +16,6 @@ links:
   code:
     title: taylorrf
     url: https://github.com/taylorrf
-  mail:
-    title: me@taylorrf.com
-    url: mailto:me@taylorrf.com
   work:
     title: coddar.com
     url: http://coddar.com
